@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="p-24">
       <h1 className="text-3xl font-bold mb-4">About Us</h1>
-      <div className="">
+      <div className="flex flex-col gap-4">
         <form action="/about" method="POST" className="flex flex-col gap-4 font-bold">
           <label htmlFor="name">Name</label>
           <input type="text mb-4" name="name" id="name"/>
